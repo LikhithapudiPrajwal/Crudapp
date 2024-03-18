@@ -7,7 +7,7 @@
 </head>
 <body>
     @auth
-    <p>Congrats!! you registered yourself and you are in</p>
+    <p>Congrats!! you are a registered user and you logged in now</p>
     <form action="/logout" method="POST">
         @csrf
     <button style="color:green">log out</button>
